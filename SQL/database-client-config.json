@@ -1,0 +1,30 @@
+{
+  "database": {
+    "1664135673279": {
+      "host": "127.0.0.1",
+      "port": 3306,
+      "user": "jasonkwon",
+      "password": "!!Tnswo2573",
+      "dbType": "MySQL",
+      "database": "mydb",
+      "name": "jasonkwon",
+      "includeDatabases": "mydb",
+      "usingSSH": false,
+      "global": true,
+      "savePassword": "Forever",
+      "hideSystemSchema": true,
+      "readonly": false,
+      "sort": 10,
+      "useSSL": false,
+      "encrypt": true,
+      "authType": "default",
+      "esAuth": "none",
+      "showHidden": true,
+      "srv": false,
+      "key": "1664135673279",
+      "connectionKey": "database.connections"
+    }
+  },
+  "nosql": null,
+  "$schema": "https://release-1256208672.cos.ap-guangzhou.myqcloud.com/dbclient/schema.json"
+}
