@@ -3,16 +3,21 @@
   font-size: 35px;
   font-weight: bolder;
   color: snow;
+  text-transform: uppercase;
 }
 
 .body {
   /* Default body Style */
   font-family: "Gill Sans", Calibri, "Trebuchet MS", sans-serif;
+  padding-left: 5px;
 }
 
 .intro {
   background-color: #2f5a78;
   color: white;
+  padding-left: 5px;
+  padding-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 .se {
@@ -30,9 +35,13 @@
 
 .contactinfo {
   font-size: 15px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background-color: #eeeeee;
 }
 .subheading {
   font-size: 20px;
   font-weight: bolder;
   color: #2f5a78;
+  text-transform: uppercase;
 }
