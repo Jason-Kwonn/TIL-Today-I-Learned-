@@ -2,6 +2,7 @@
   /* This is heading Style */
   font-size: 35px;
   font-weight: bold;
+  color: snow;
 }
 
 .intro {
@@ -11,9 +12,11 @@
 .se {
   /* Software Engineer Style */
   font-weight: bold;
+  color: snow;
 }
 
 .summary {
   /* Summary Style */
   font-style: italic;
+  color: snow;
 }
