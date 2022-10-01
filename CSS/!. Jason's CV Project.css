@@ -1,17 +1,24 @@
 .heading {
   /* This is heading Style */
   font-size: 35px;
-  font-weight: bold;
+  font-weight: bolder;
   color: snow;
+}
+
+.body {
+  /* Default body Style */
+  font-family: "Gill Sans", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .intro {
   background-color: #2f5a78;
+  color: white;
 }
 
 .se {
   /* Software Engineer Style */
-  font-weight: bold;
+  font-weight: lighter;
+  font-size: 20px;
   color: snow;
 }
 
@@ -19,4 +26,13 @@
   /* Summary Style */
   font-style: italic;
   color: snow;
+}
+
+.contactinfo {
+  font-size: 15px;
+}
+.subheading {
+  font-size: 20px;
+  font-weight: bolder;
+  color: #2f5a78;
 }
