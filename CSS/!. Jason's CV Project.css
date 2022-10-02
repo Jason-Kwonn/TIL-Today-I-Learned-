@@ -45,3 +45,7 @@
   color: #2f5a78;
   text-transform: uppercase;
 }
+
+img {
+  float: right;
+}

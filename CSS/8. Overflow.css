@@ -1,0 +1,14 @@
+div1 {
+  width: 150px;
+  height: 150px;
+  background-color: LightBlue;
+  float: left;
+  overflow: scroll;
+}
+div2 {
+  width: 150px;
+  height: 150px;
+  background-color: LightBlue;
+  float: right;
+  overflow: hidden;
+}

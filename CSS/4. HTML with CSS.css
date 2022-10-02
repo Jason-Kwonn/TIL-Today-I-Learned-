@@ -1,0 +1,21 @@
+body {
+  background-image: url("http://www.sololearn.com/uploads/css_logo.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+a:hover {
+  color: red;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+span {
+  display: block;
+}
+
+h1 {
+  display: none;
+}

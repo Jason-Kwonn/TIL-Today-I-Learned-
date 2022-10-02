@@ -1,0 +1,19 @@
+caption {
+  caption-side: top;
+}
+
+table {
+  border-collapse: separate;
+  empty-cells: hide;
+}
+
+td {
+  border: 1px solid gray;
+}
+table.auto {
+  table-layout: auto;
+  /* default */
+}
+table.fixed {
+  table-layout: fixed;
+}

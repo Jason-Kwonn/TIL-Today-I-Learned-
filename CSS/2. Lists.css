@@ -1,0 +1,14 @@
+ol.lower-alpha {
+  list-style-type: upper-alpha;
+}
+ul.circle {
+  list-style-type: circle;
+}
+ul.square {
+  list-style-type: square outside none;
+  /* same as
+  list-style-type: square;
+  list-style-position: outside;
+  list-style-image: none;
+  */
+}
