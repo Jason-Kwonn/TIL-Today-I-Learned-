@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 class Main {
-
+/* Make scanner and print name and age(getAge) */
    public static void main(String[] args) {
        Scanner read = new Scanner(System.in);
        String name = read.nextLine();
