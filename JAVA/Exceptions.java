@@ -19,7 +19,7 @@ public class Exceptions {
         try {
             System.out.println(categories[choice]);
         }
-        catch(Exception integer) {
+        catch(Exception NotIntError) {
             System.out.println("Caterogy Exception Occured.");
         }
         
