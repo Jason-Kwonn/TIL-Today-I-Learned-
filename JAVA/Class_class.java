@@ -1,3 +1,4 @@
+;
 // Class Method Object
 
 public class Class_class {
@@ -5,10 +6,10 @@ public class Class_class {
         Loading loading = new Loading();
         loading.LoadingMessage();
     }
- }
- 
- class Loading {
-     void LoadingMessage(){
-         System.out.println("Loading");
-     }
- }
+}
+
+class Loading {
+    void LoadingMessage() {
+        System.out.println("Loading");
+    }
+}

@@ -1,7 +1,9 @@
+
 // Make Animal interface
 
 interface Animal {
     public void eat();
+
     public void makesound();
 }
 
@@ -10,6 +12,7 @@ class Cat implements Animal {
     public void makesound() {
         System.out.println("Meow");
     }
+
     public void eat() {
         System.out.println("omnomnom");
     }
@@ -22,5 +25,5 @@ public class Interface_implements {
         Cat cat = new Cat();
         cat.eat();
         cat.makesound();
-    }    
+    }
 }

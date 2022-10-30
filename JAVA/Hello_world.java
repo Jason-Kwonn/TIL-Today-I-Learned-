@@ -1,6 +1,7 @@
+
 class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Hello World!");    
+        System.out.println("Hello World!");
     }
 }
 // Single line comment
@@ -8,5 +9,7 @@ class HelloWorld {
  * Multiple lines
  */
 
-/** This is a 
- * documantation comment */
+/**
+ * This is a
+ * documantation comment
+ */
