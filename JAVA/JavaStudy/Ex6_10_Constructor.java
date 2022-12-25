@@ -1,6 +1,6 @@
 package JavaStudy;
 
-public class Ex6_10_constructor {
+public class Ex6_10_Constructor {
 
 }
 

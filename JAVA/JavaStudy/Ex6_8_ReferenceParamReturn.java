@@ -1,7 +1,7 @@
 package JavaStudy;
 
 class Data3 { int x; }
-public class Ex6_8_referenceParamReturn {
+public class Ex6_8_ReferenceParamReturn {
     public static void main(String[] args) {
         Data3 d = new Data3();
         d.x = 10;

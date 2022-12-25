@@ -2,7 +2,7 @@ package JavaStudy;
 
 import java.util.*;
 
-public class Ex11_16_hashmap1 {
+public class Ex11_16_Hashmap1 {
     public static void main(String[] args) {
         HashMap map = new HashMap();
         map.put("myId", "1234");

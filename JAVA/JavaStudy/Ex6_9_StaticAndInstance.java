@@ -1,6 +1,6 @@
 package JavaStudy;
 
-class myMath {
+class MyMath {
     long a, b;
 
     long add() { // 인스턴스 메서드
@@ -12,10 +12,10 @@ class myMath {
     }
 }
 
-public class Ex6_9_staticAndInstance {
+public class Ex6_9_StaticAndInstance {
     public static void main(String[] args) {
-        System.out.println(myMath.add(500L, 1000L)); // call static method
-        myMath mm = new myMath();
+        System.out.println(MyMath.add(500L, 1000L)); // call static method
+        MyMath mm = new MyMath();
         mm.a = 300L;
         mm.b = 200L;
         System.out.println(mm.add()); // call instance method
@@ -25,7 +25,7 @@ public class Ex6_9_staticAndInstance {
 // 개별 속성은 인스턴스 메서드, 공통 속성은 static 메서드를 사용한다.
 // iv 를 쓰는 메서드는 인스턴스 메서드, iv 를 안쓰면 static 을 붙인다.
 
-class testClass {
+class TestClass {
     int iv;
     static int cv;
 

@@ -1,6 +1,6 @@
 package JavaStudy;
 
-public class Ex2_7_addStrInt {
+public class Ex2_7_AddStrInt {
     public static void main(String[] args) {
         String name = "Ja" + "va";
         String str = name + 8.0;

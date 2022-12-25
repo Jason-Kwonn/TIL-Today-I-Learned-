@@ -2,7 +2,7 @@ package JavaStudy;
 
 import java.util.Scanner;
 
-public class Ex2_10_scanner {
+public class Ex2_10_Scanner {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in); // Scanner 를 사용하기 위해 추가
 

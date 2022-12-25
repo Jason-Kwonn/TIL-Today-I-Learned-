@@ -1,6 +1,6 @@
 package JavaStudy;
 
-public class Ex2_8_changeVariablesLiteral {
+public class Ex2_8_ChangeVariablesLiteral {
     public static void main(String[] args) {
         int x = 10, y = 5; // 변수 선언을 한 줄로
         System.out.println("x = " + x);

@@ -1,6 +1,6 @@
 package JavaStudy;
 
-public class Ex2_6_types {
+public class Ex2_6_Types {
     public static void main(String[] args) {
         int x = 100;
         double pi = 3.14;

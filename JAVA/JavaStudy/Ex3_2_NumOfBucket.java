@@ -1,6 +1,6 @@
 package JavaStudy;
 
-public class Ex3_2_numOfBucket {
+public class Ex3_2_NumOfBucket {
 
     public static void main(String[] args) {
         int numOfApples = 123;

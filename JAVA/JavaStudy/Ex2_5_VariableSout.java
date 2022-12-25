@@ -1,6 +1,6 @@
 package JavaStudy;
 
-public class Ex2_5_variableSout {
+public class Ex2_5_VariableSout {
     public static void main(String[] args) {
         int x = 5;
         int y = 10;

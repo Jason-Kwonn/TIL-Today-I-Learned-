@@ -1,6 +1,6 @@
 package JavaStudy;
 
-public class Ex2_9_printf {
+public class Ex2_9_Printf {
     public static void main(String[] args) {
         String url = "www.codechobo.com";
         float f1 = .10f; //0.10, 1.0e-1

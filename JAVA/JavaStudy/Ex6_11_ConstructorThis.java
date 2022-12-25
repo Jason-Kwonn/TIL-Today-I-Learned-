@@ -1,6 +1,6 @@
 package JavaStudy;
 
-public class Ex6_11_constructorThis {
+public class Ex6_11_ConstructorThis {
 
     public static void main(String[] args) {
         CarSpec carSpec1 = new CarSpec();
