@@ -31,13 +31,15 @@ class SmartTv extends Tv {
 
 public class Ex7_1_Inheritance {
     public static void main(String[] args) {
-        SmartTv stv = new SmartTv(); // 인스턴스 초기화
+        Tv t = new SmartTv(); // 인스턴스 초기화, 다형성
+        // 다형성의 기능 : 자손이 조상의 참조 변수를 사용하면, 조상의 메서드만 사용 가능
 
-        stv.channel =10;             // channel 10 설정
-        stv.channelUp();             // 채널 올리는 메서드
-        System.out.println(stv.channel);
+        t.channel =10;             // channel 10 설정
+        t.channelUp();             // 채널 올리는 메서드
+        System.out.println(t.channel);
 
-        stv.caption = true;          // caption on
-        stv.displayCaption("Hello, World");
+//        t.caption = true;          // caption on
+//        t.displayCaption("Hello, World");
+        // 에러, 자손의 메서드는 사용 불가
     }
 }
