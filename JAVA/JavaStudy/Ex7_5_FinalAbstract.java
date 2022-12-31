@@ -10,6 +10,7 @@ public class Ex7_5_FinalAbstract {
     public static void main(String[] args) {
         final int PHONE_NUMBER = 1234567890;
         // final 변수 : 상수는 다른 변경 불가능
+
     }
 }
 
