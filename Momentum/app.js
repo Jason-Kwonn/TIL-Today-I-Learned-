@@ -15,3 +15,12 @@ console.log("Hello " + myName);
 myName = "JASON";
 
 console.log("Hello " + myName);
+
+/*
+amIFat has a value null, 
+something doesn't have any value
+*/
+const amIFat = null;
+let something;
+
+console.log(amIFat, something);
