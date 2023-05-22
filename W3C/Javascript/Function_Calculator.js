@@ -1,28 +1,35 @@
 const calculator = {
   add: function (a, b) {
-    console.log(a + b);
+    return a + b;
   },
   sub: function (a, b) {
-    console.log(a - b);
+    return a - b;
   },
   mul: function (a, b) {
-    console.log(a * b);
+    return a * b;
   },
   div: function (a, b) {
-    console.log(a / b);
+    return a / b;
   },
   quo: function (a, b) {
     let q = parseInt(a / b);
-    console.log(q);
+    return q;
   },
   rem: function (a, b) {
-    console.log(a % b);
+    return a % b;
   },
 };
 
-calculator.add(15, 10);
-calculator.sub(15, 10);
-calculator.mul(15, 10);
-calculator.div(15, 10);
-calculator.quo(15, 10);
-calculator.rem(15, 10);
+const addCal = calculator.add(15, 10);
+const subCal = calculator.sub(addCal, 10);
+const mulCal = calculator.mul(subCal, addCal);
+const divCal = calculator.div(mulCal, subCal);
+const quoCal = calculator.quo(divCal, addCal);
+const remCal = calculator.rem(quoCal, mulCal);
+
+console.log(addCal);
+console.log(subCal);
+console.log(mulCal);
+console.log(divCal);
+console.log(quoCal);
+console.log(remCal);
