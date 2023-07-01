@@ -1,4 +1,4 @@
-package Practices;
+package Practices.Day01.Test01;
 
 /*
 [1] : 이름과 전화번호를 입력하고 출력하는 예제
@@ -12,7 +12,7 @@ package Practices;
 
 import java.util.Scanner; // 스캐너 가져옴
 
-public class Test1 {
+public class Test01 {
 
     public static void main(String[] args) {
         Scanner nameScanner = new Scanner(System.in); // 이름 스캐너 객체 생성
@@ -24,7 +24,7 @@ public class Test1 {
         System.out.println("나의 이름은 \"" + name + "\" 입니다.");
         System.out.println("\"" + name + "\" 씨의 [hp] 는 \"" + number + "\" 입니다.");
 
-        nameScanner.close();
-        numberScanner.close();
+        nameScanner.close(); // 이름 스캐너 닫기
+        numberScanner.close(); // 번호 스캐너 닫기
     }
 }
