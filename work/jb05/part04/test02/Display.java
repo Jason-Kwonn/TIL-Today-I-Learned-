@@ -20,7 +20,7 @@
 
 */
 
-class BusCharge
+abstract class BusCharge
 {
 	//Field
 	String section;
@@ -112,7 +112,13 @@ public class Display
 		b3.information();
 		System.out.println(b3.section);
 		b3.charge(); // 어떤 클래스의 Method 호출되었는지 확인
-
+		
+		//==> 아래 주석을 차례로 풀어 컴파일 에러 확인
+		//1. abstract class 는 객체생성 불가
+		//BusCharge bc01 = new BusCharge();
+		//2. 객체생성은 불가하나, 변수의 선언(Data type) 은 가능하다.
+		//BusCharge bc02;
+		
 	} // end of main
 
 } // end of class

@@ -48,7 +48,7 @@ public class CastingComplete
 		System.out.println("\n여기는 Sub s2 = new Sub() 부분");
 		Sub s2 = new Sub();
 		s2.a();
-		S2.b();
+		s2.b();
 
 
 		// 3. 상위 data type 으로 하위 인스턴스 생성 (data type != 인스턴스)
@@ -57,8 +57,8 @@ public class CastingComplete
 		s3.a();
 
 		// 아래는 error 발생, s3 는 b() 를 참조할 수 없다. (꼭 이해 필)
-		// s3.b();
-		// s3.a() 를 사용하려면 ==> casting 연산자 사용 (즉 자신의 원상태 복귀(?))
+		//s3.b();
+		//s3.a() 를 사용하려면 ==> casting 연산자 사용 (즉 자신의 원상태 복귀(?))
 
 		System.out.println("\n s3 는 b() 에 접근 불가하다.");
 		System.out.println("casting 연산자를 이용 Sub sub = (Sub) s3 명시적 형변환");

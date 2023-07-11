@@ -52,7 +52,7 @@ abstract class BusCharge
 class Student extends BusCharge
 {
 	public Student(){
-		super("학생");
+		super("학생 ");
 	}
 	
 	public void charge(){
@@ -65,7 +65,7 @@ class Student extends BusCharge
 class Adult extends BusCharge
 {
 	public Adult(){
-		super("일반인");
+		super("일반인 ");
 	}
 	public void charge(){
 		System.out.println("500원");
@@ -78,7 +78,7 @@ class Adult extends BusCharge
 class Old extends BusCharge
 {
 	public Old(){
-		super("어르신");
+		super("어르신 ");
 	}
 
 	public void charge(){
@@ -95,7 +95,7 @@ public class Display
 
 		// 상위 레퍼런스로 하위 인스턴스를 참조 가능 (묵시적 현변환 / ~ is a ~ Relation)
 		// abstract class 는 객체 생성 불가 그러나 type 선언은 ????
-
+/*
 		Buscharge bc1 = new Student(); // Student b1 = new Student();
 		Buscharge bc2 = new Adult(); // Adult b2 = new Adult();
 		Buscharge bc3 = new Old(); // Old b3 = new Old();
@@ -111,7 +111,7 @@ public class Display
 		bc3.information();
 		System.out.println(bc3.section);
 		bc3.charge(); // 어떤 클래스의 Method 호출되었는지 확인
-
+*/
 
 		//==> 위 코딩과 아래의 코딩을 비교하면..
 		//==> 1. 반복된 부분은 없는가
